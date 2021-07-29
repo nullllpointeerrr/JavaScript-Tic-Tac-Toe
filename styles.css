@@ -9,6 +9,8 @@
 
 body {
   margin: 0;
+  background-color:rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
 }
 
 .board {
@@ -25,7 +27,7 @@ body {
 .cell {
   width: var(--cell-size);
   height: var(--cell-size);
-  border: 1px solid black;
+  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
